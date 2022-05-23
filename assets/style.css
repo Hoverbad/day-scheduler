@@ -1,0 +1,91 @@
+body {
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  background-color: #1f1e20;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.display {
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  padding-top: 10px
+}
+
+.hour {
+  background-color: #6faef7;
+  color: #5b3480;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.past {
+  background-color: #747171;
+  color: #ffffff;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.present {
+  background-color: #FF7A63;
+  color: white;
+  text-transform: uppercase;
+}
+
+.future {
+  background-color: #FDF8F5;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+
+.saveBtn {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: #5b3480;
+  color: #6faef7;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+
+
